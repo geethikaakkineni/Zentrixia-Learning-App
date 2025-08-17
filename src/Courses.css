@@ -1,0 +1,108 @@
+.coursess {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+#courseheading{
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  color: #07142d;
+  text-align: center;
+}
+.coursess-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.coursess-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+h3{
+  font-weight: 700;
+}
+
+#buttondiv{
+  margin-top: auto;
+  padding-bottom: 10px;
+}
+
+#buttonincard{
+    background-color: #ffffff;
+    color: #07142d;
+    border-radius: 20px;
+}
+
+#buttonincard:hover{
+  background-color: #07142d;
+  color: #ffffff;
+}
+
+.arrow {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 2;
+  
+}
+
+.left {
+  margin-right: 10px;
+  border: solid black 2px;
+  border-radius: 100%;
+  font-size: larger;
+}
+
+.left:hover, .right:hover{
+    background-color: #1e293b;
+    color: #ffffff;
+}
+
+.right {
+  margin-left: 10px;
+  border: solid black 2px;
+  border-radius: 100%;
+  font-size: larger;
+}
+
+.card {
+  display: flex;             
+  flex-direction: column;    
+  flex: 0 0 calc(100% / 3); 
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  justify-content: space-between; 
+  min-height: 400px;   
+  margin: 5px;   
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.card-name {
+  color: #1e293b;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.card-role {
+  color: #475569;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
