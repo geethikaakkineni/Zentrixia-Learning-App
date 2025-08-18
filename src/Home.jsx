@@ -10,6 +10,7 @@ function Home(){
                     strings={["Future Ready Skills , Fast-Track Learning"]}
                     typeSpeed={50}
                     backSpeed={50}
+                    style={{ fontSize: "1.5rem" }} 
                     loop
             />
             <div class="search-box">
