@@ -80,8 +80,6 @@ header {
   display: block;
 }
 
-
-
 /* Instructors Section */
 #instr1, #instr2, #instr3, #instr4 {
   width: 200px;
@@ -90,7 +88,6 @@ header {
   border-radius: 50%;
   display: block;
   margin: 0 auto;
-
 }
 .instr{
   max-width: 260px;
@@ -112,9 +109,6 @@ header {
   margin-top: 50px;
   margin-bottom: 50px ;
 }
-
-
-
 /* Join Form */
 #joinform {
   display: flex;
@@ -137,9 +131,6 @@ input{
   border: 1px solid #bcbcbc;
   margin-bottom: 15px;
 }
-
-
-
 /* FOOTER STYLING */
 .footer {
   background-color: #07142d;
@@ -201,9 +192,6 @@ input{
   padding-top: 15px;
   font-size: 14px;
 }
-
-
-
 /*RESPONSIVE STYLING */
 @media (max-width: 760px) {
   header {
@@ -211,7 +199,6 @@ input{
     align-items: center;
     padding: 10px;
   }
-
   #navbar {
     flex-direction: column;
     height: auto;

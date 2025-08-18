@@ -16,7 +16,7 @@ function App() {
 
   useEffect(() => {
         AOS.init({
-          duration: 2000, // example: animation duration
+          duration: 2000, 
         });
       },[]);
 
@@ -27,7 +27,6 @@ function App() {
       <Home/>
       <Courses/>
       <Programs/>
-
       <Instructors/>
       <Join/>
       <Footer/>  

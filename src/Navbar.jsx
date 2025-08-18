@@ -8,17 +8,15 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      {/* Logo */}
+
       <div className="navbar-logo">
         <a href="/">Zentrixia</a>
       </div>
 
-      {/* Hamburger Button */}
       <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
         {isOpen ? "✖" : "☰"}
       </div>
 
-      {/* Links */}
       <ul className={`navbar-links ${isOpen ? "open" : ""}`}>
         <li><Link to="homesection" smooth={true} duration={1000} onClick={() => setIsOpen(false)}>Home</Link></li>
         <li><Link to="coursesection" smooth={true} duration={1000} onClick={() => setIsOpen(false)}>Courses</Link></li>

@@ -1,19 +1,3 @@
-// function Footer() {
-//     return (
-//         <div id="footer">
-//             <i className="fa-brands fa-instagram"></i>
-//             <i className="fa-brands fa-facebook"></i>
-//             <i className="fa-brands fa-whatsapp"></i>
-//             <i className="fa-brands fa-twitter"></i>
-//         </div>
-//     );
-// }
-
-// export default Footer;
-
-
-
-
 function Footer() {
   return (
     <footer className="footer">
@@ -29,7 +13,6 @@ function Footer() {
         </div>
       </div>
 
-      {/* Links section */}
       <div className="footer-links">
         <div className="footer-group">
           <ul>
@@ -57,7 +40,6 @@ function Footer() {
         </div>
       </div>
 
-      {/* Bottom section */}
       <div className="footer-bottom">
         <p>© 2025 Your Company. All rights reserved.</p>
         <p>Terms & Conditions</p>
