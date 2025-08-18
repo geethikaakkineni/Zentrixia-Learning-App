@@ -94,8 +94,6 @@
   font-size: 1.1rem;
   color: #ffffff;
 }
-
-/* Hamburger hidden on desktop */
 .hamburger {
   display: none;
   font-size: 1.8rem;
@@ -103,8 +101,9 @@
   cursor: pointer;
 }
 
-/* Mobile */
-@media (max-width: 768px) {
+
+
+@media (max-width: 770px) {
   .hamburger {
     display: block;
   }
